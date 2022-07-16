@@ -108,7 +108,7 @@ class _ListPageState extends State<ListPage> {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => UpdateStudentPage(),
+                              builder: (context) => UpdateEmployeePage(),
                             ),
                           ),
                         },

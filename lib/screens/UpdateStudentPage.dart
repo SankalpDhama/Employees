@@ -1,15 +1,20 @@
 import 'package:flutter/material.dart';
 
-class UpdateStudentPage extends StatefulWidget {
+class UpdateEmployeePage extends StatefulWidget {
   @override
-  State<UpdateStudentPage> createState() => _UpdateStudentPageState();
+  State<UpdateEmployeePage> createState() => _UpdateEmployeePageState();
 }
 
-class _UpdateStudentPageState extends State<UpdateStudentPage> {
+class _UpdateEmployeePageState extends State<UpdateEmployeePage> {
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-      child: Text("bitch"),
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(
+          'updateStudent',
+          style: TextStyle(color: Colors.pink),
+        ),
+      ),
     );
   }
 }
